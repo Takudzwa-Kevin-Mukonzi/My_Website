@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background: #1f1f38;
+    color: #ffffff;
+    line-height: 1.7;
+    margin: 0 auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 500;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  a {
+    color: #4db5ff;
+    transition: color 300ms ease;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus {
+    color: #ffffff;
+  }
+
+  form,
+  button,
+  textarea {
+    font: inherit;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-primary px-4 py-3 text-primary transition duration-300 hover:scale-[1.02];
+  }
+
+  .btn:hover {
+    @apply bg-white text-bg border-transparent;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-bg;
+  }
+}
