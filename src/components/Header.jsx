@@ -1,3 +1,4 @@
+const baseUrl = import.meta.env.BASE_URL;
 const containerClass = "mx-auto w-[90%] max-w-[1100px]";
 
 const headerSocials = [
@@ -44,7 +45,7 @@ export default function Header() {
         <div className="mt-10 flex flex-wrap items-center justify-center gap-5">
           <a
             className="btn"
-            href="/carriculum_vitae/Takudzwa_Kevin_Mukonzi_CV.pdf"
+            href={`${baseUrl}carriculum_vitae/Takudzwa_Kevin_Mukonzi_CV.pdf`}
             download=""
           >
             Download CV
@@ -72,7 +73,7 @@ export default function Header() {
           <div className="mt-6">
             <img
               className="mt-16 w-[22rem] rounded-t-[12rem] bg-gradient-to-b from-primary to-transparent"
-              src="/images/Takudzwa.jpg"
+              src={`${baseUrl}images/Takudzwa.jpg`}
               alt="Takudzwa Kevin Mukonzi"
               title="Takudzwa Kevin Mukonzi"
               width="3000"

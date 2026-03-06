@@ -1,10 +1,12 @@
+const baseUrl = import.meta.env.BASE_URL;
+const imageBase = `${baseUrl}images/`;
 const containerClass = "mx-auto w-[90%] max-w-[1100px]";
 const sectionSpacing = "mt-12 max-[1024px]:mt-8";
 
 const projects = [
   {
     title: "Encore Business Solutions (WordPress Imitation Website)",
-    image: "/images/EBS_Website_imitation.png",
+    image: `${imageBase}EBS_Website_imitation.png`,
     alt: "Laragigs Web App",
     github: "",
     live: "https://takudzwakevinmkonzi.wordpress.com",
@@ -12,7 +14,7 @@ const projects = [
   },
   {
     title: "Laragigs (Web App)",
-    image: "/images/laragigs.png",
+    image: `${imageBase}laragigs.png`,
     alt: "Laragigs Web App",
     github: "https://github",
     live: "https://github",
@@ -20,7 +22,7 @@ const projects = [
   },
   {
     title: "Notes (Web App)",
-    image: "/images/notes.png",
+    image: `${imageBase}notes.png`,
     alt: "Notes Web App",
     github: "https://github",
     live: "https://github",
@@ -28,7 +30,7 @@ const projects = [
   },
   {
     title: "Smart Zimsec (Web App)",
-    image: "/images/smart_zimsec.png",
+    image: `${imageBase}smart_zimsec.png`,
     alt: "Smart Zimsec Web App",
     github: "https://github",
     live: "https://github",
@@ -36,7 +38,7 @@ const projects = [
   },
   {
     title: "FrontEnd Challenge Product list with cart",
-    image: "/images/Product_list_with_cart.png",
+    image: `${imageBase}Product_list_with_cart.png`,
     alt: "Product_list_with_cart",
     github:
       "https://github.com/Takudzwa-Kevin-Mukonzi/Product-list-with-cart-main",
@@ -46,7 +48,7 @@ const projects = [
   },
   {
     title: "FrontEnd Challenge Newsletter Template Design",
-    image: "/images/FrontEndChallengeTemplates.png",
+    image: `${imageBase}FrontEndChallengeTemplates.png`,
     alt: "Newsletter Template",
     github: "https://github",
     live: "https://github",
@@ -54,7 +56,7 @@ const projects = [
   },
   {
     title: "FrontEnd Challenge Gradie_Sign_Up Template Design",
-    image: "/images/Gradie_Sign_Up_Template.png",
+    image: `${imageBase}Gradie_Sign_Up_Template.png`,
     alt: "Gradie_Login_Template",
     github:
       "https://github.com/Takudzwa-Kevin-Mukonzi/Gradie_Sign_Up_Template",

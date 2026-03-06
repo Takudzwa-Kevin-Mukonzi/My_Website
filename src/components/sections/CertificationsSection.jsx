@@ -1,25 +1,26 @@
 import { useState } from "react";
 
+const baseUrl = import.meta.env.BASE_URL;
+const certBase = `${baseUrl}images/Certifications/`;
+
 const certifications = [
   {
-    image: "/images/Certifications/MSU_IS_Certificate.jpg",
+    image: `${certBase}MSU_IS_Certificate.jpg`,
     alt: "MSU_IS_Certificate",
     title: "MSU_IS_Certificate (MSU)"
   },
   {
-    image: "/images/Certifications/Responsive_Web_Design.png",
+    image: `${certBase}Responsive_Web_Design.png`,
     alt: "Responsive Web Design Certificate",
     title: "Responsive Web Design (FreeCodeCamp)"
   },
   {
-    image:
-      "/images/Certifications/JavaScript_Algorithms_and_Data_Structures.png",
+    image: `${certBase}JavaScript_Algorithms_and_Data_Structures.png`,
     alt: "JavaScript Algorithms & Data Structures Certificate",
     title: "JavaScript Algorithms & Data Structures (FreeCodeCamp)"
   },
   {
-    image:
-      "/images/Certifications/UML and Object-Oriented Design Foundations.jpg",
+    image: `${certBase}UML and Object-Oriented Design Foundations.jpg`,
     alt: "UML and Object-Oriented Design Foundations Certificate",
     title: "UML and Object-Oriented Design Foundations (Udemy)"
   }

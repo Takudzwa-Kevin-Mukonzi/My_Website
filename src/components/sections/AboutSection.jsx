@@ -1,3 +1,4 @@
+const baseUrl = import.meta.env.BASE_URL;
 const containerClass = "mx-auto w-[90%] max-w-[1100px]";
 const sectionSpacing = "mt-12 max-[1024px]:mt-8";
 
@@ -25,7 +26,7 @@ export default function AboutSection() {
         <div className="mx-auto grid h-[200px] w-[300px] place-items-center rounded-[2rem] bg-[linear-gradient(45deg,transparent,#4db5ff,transparent)] max-[1024px]:h-[180px] max-[1024px]:w-[270px] max-[1024px]:my-8 max-[600px]:h-[180px] max-[600px]:w-[250px] max-[600px]:my-0 max-[600px]:mb-12">
           <img
             className="h-[200px] w-[300px] rounded-[2rem] rotate-[10deg] transition duration-300 hover:rotate-0 max-[1024px]:h-[180px] max-[1024px]:w-[270px] max-[600px]:h-[180px] max-[600px]:w-[250px]"
-            src="/images/html_css_js_php.jpg"
+            src={`${baseUrl}images/html_css_js_php.jpg`}
             alt="about me image"
           />
         </div>
