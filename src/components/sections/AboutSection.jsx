@@ -1,18 +1,18 @@
 const baseUrl = import.meta.env.BASE_URL;
-const containerClass = "mx-auto w-[90%] max-w-[1100px]";
-const sectionSpacing = "mt-12 max-[1024px]:mt-8";
+const containerClass = 'mx-auto w-[90%] max-w-[1100px]';
+const sectionSpacing = 'mt-12 max-[1024px]:mt-8';
 
 const aboutCards = [
   {
-    title: "Expirience",
-    subtitle: "1 Year Working",
-    icon: "menu_book"
+    title: 'Expirience',
+    subtitle: '2 YearS Working',
+    icon: 'menu_book',
   },
   {
-    title: "Projects",
-    subtitle: "20+ Completed",
-    icon: "engineering"
-  }
+    title: 'Projects',
+    subtitle: '30+ Completed',
+    icon: 'engineering',
+  },
 ];
 
 export default function AboutSection() {
