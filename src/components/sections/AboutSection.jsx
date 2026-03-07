@@ -5,7 +5,7 @@ const sectionSpacing = 'mt-12 max-[1024px]:mt-8';
 const aboutCards = [
   {
     title: 'Expirience',
-    subtitle: '2 YearS Working',
+    subtitle: '2 Years Working',
     icon: 'menu_book',
   },
   {
